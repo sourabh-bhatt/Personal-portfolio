@@ -1,8 +1,14 @@
+import React from "react";
+import Banner from "./components/banner/Banner";
+
 function App() {
   return (
-    <>
-      <h1>Portfolio Website</h1>
-    </>
+    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
+      {/* <Navbar /> */}
+      <div className="max-w-screen-xl mx-auto">
+        <Banner />
+      </div>
+    </div>
   );
 }
 

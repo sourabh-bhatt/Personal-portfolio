@@ -6,9 +6,9 @@ const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Professional Coder.",
-      "Full Stack Developer.",
-      "Data Scientist.",
-      "Wildlife Enthusiast Capturing Wonders Through My Lens 📸",
+      "Frontend Developer.",
+      "Data Scientist Enthusiast.",
+      "Documenting my journey 📸",
     ],
     loop: true,
     typeSpeed: 20,
@@ -21,7 +21,7 @@ const LeftBanner = () => {
         <h4 className=" text-lg font-normal">Hola Amingos 👀🙋‍♂️ </h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm{" "}
-          <span className="text-designColor capitalize">Mihir Chavan</span>
+          <span className="text-designColor capitalize">Sourabh Bhatt</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -32,10 +32,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          "I am a passionate MERN stack developer and machine learning
-          enthusiast. With a strong foundation in web development and a keen eye
-          for data, I create innovative solutions that bridge technology and
-          user experience."
+          "I am a passionate Frontend developer. With a strong foundation in web
+          development and a keen eye for data through APIs👀. I create
+          innovative solutions that bridge technology and user experience."
         </p>
       </div>
       {/* Media */}
